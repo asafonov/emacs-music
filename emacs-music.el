@@ -67,6 +67,7 @@
 (global-set-key (kbd "C-c -") 'volume-down)
 (global-set-key (kbd "C-c !") 'music-toggle)
 (global-set-key (kbd "C-c >") 'music-next)
+(global-set-key (kbd "C-c q") 'nomusic)
 (global-set-key (kbd "C-c <") 'music-prev)
 
 (provide 'emacs-music)
