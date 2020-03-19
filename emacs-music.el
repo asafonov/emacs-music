@@ -1,4 +1,4 @@
-(defvar music-player-command "mpv --no-audio-display --input-ipc-server=/tmp/mpvsocket ")
+(defvar music-player-command "mpv --no-video --input-ipc-server=/tmp/mpvsocket ")
 (defvar music-player-kill-command "echo 'quit' | socat - /tmp/mpvsocket")
 (defvar music-toggle-command "echo 'cycle pause' | socat - /tmp/mpvsocket")
 (defvar music-next-command "echo 'playlist-next' | socat - /tmp/mpvsocket")
