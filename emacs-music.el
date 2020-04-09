@@ -71,6 +71,7 @@
 
 (global-set-key (kbd "C-c 0") 'volume-up)
 (global-set-key (kbd "C-c 9") 'volume-down)
+(global-set-key (kbd "C-c v") 'volume-set)
 (global-set-key (kbd "C-c !") 'music-toggle)
 (global-set-key (kbd "C-c >") 'music-next)
 (global-set-key (kbd "C-c q") 'nomusic)
